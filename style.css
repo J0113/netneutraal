@@ -1,0 +1,38 @@
+.animated1{
+animation:fadein 4s;
+}
+
+.animated11{
+animation:fadein11 8s;
+}
+
+@keyframes fadein11{
+0% {opacity:0}
+30% {opacity:0}
+100% {opacity:1}
+}
+
+@keyframes fadein{
+0% {opacity:0}
+100% {opacity:1}
+}
+
+.animated2{
+animation:fadein2 8s
+}
+
+@keyframes fadein2{
+0% {opacity:0}
+40% {opacity:0}
+100% {opacity:1}
+}
+
+.animated3{
+animation:fadein3 10s
+}
+
+@keyframes fadein3{
+0% {opacity:0}
+66% {opacity:0}
+100% {opacity:1}
+}
