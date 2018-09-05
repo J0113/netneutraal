@@ -1,9 +1,9 @@
 .animated1{
-animation:fadein 4s;
+animation:fadein 3s;
 }
 
 .animated11{
-animation:fadein11 8s;
+animation:fadein11 6s;
 }
 
 @keyframes fadein11{
@@ -18,7 +18,7 @@ animation:fadein11 8s;
 }
 
 .animated2{
-animation:fadein2 8s
+animation:fadein2 6s
 }
 
 @keyframes fadein2{
@@ -28,7 +28,7 @@ animation:fadein2 8s
 }
 
 .animated3{
-animation:fadein3 10s
+animation:fadein3 8s
 }
 
 @keyframes fadein3{
