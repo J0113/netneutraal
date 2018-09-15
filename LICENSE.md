@@ -1,6 +1,7 @@
 For this project (NetNeutraal) the CC-BY-NC license applies.
 
 In short:
+--------------------------
 - You can use this how ever you want, you may even share it to others.
 - You can remix this how ever you want.
 - ALWAYS give appropriate credit (Name: J0113 + Original location github url)
@@ -9,9 +10,11 @@ In short:
 - No warranties
 
 More here:
+--------------------------
 https://creativecommons.org/licenses/by-nc/2.0/
 
 Note:
+--------------------------
 
 w3.css belongs to W3SCHOOLS
 No license
