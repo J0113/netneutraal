@@ -1,4 +1,4 @@
-For this project (NetNeutraal) the CC-BY-NC license applies.
+[For this project (NetNeutraal) the CC-BY-NC license applies.]
 
 In short:
 --------------------------
@@ -17,11 +17,16 @@ Note:
 --------------------------
 
 w3.css belongs to W3SCHOOLS
+
 No license
+
 https://www.w3schools.com/w3css/
 
+
 fullpage.js belongs to alvarotrigo
+
 GNU General Public License v3.0
+
 https://github.com/alvarotrigo/fullPage.js
 
 
