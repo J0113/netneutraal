@@ -1,3 +1,31 @@
+For this project (NetNeutraal) the CC-BY-NC license applies.
+
+In short:
+- You can use this how ever you want, you may even share it to others.
+- You can remix this how ever you want.
+- ALWAYS give appropriate credit (Name: J0113 + Original location github url)
+- Indicate changes you made
+- Non Commercial!
+- No warranties
+
+More here:
+https://creativecommons.org/licenses/by-nc/2.0/
+
+Note:
+
+w3.css belongs to W3SCHOOLS
+No license
+https://www.w3schools.com/w3css/
+
+fullpage.js belongs to alvarotrigo
+GNU General Public License v3.0
+https://github.com/alvarotrigo/fullPage.js
+
+
+
+
+Full License:
+--------------------------
 
 
 THE WORK (AS DEFINED BELOW) IS PROVIDED UNDER THE TERMS OF THIS CREATIVE COMMONS PUBLIC LICENSE ("CCPL" OR "LICENSE"). THE WORK IS PROTECTED BY COPYRIGHT AND/OR OTHER APPLICABLE LAW. ANY USE OF THE WORK OTHER THAN AS AUTHORIZED UNDER THIS LICENSE OR COPYRIGHT LAW IS PROHIBITED.
