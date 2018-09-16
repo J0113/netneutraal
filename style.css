@@ -147,6 +147,10 @@ a {
     padding-right: 10vw;
     padding-left: 10vw;
   }
+  .inputpadding {
+    padding-right: 10vw;
+    padding-left: 10vw;
+  }
 }
 @media screen and (min-height: 700px) {
   .bigscreenpadding {
@@ -158,6 +162,10 @@ a {
     padding-right: 13vw;
     padding-left: 13vw;
   }
+  .inputpadding {
+    padding-right: 13vw;
+    padding-left: 13vw;
+  }
 }
 @media screen and (min-height: 1100px) {
   .bigscreenpadding {
@@ -165,7 +173,9 @@ a {
   }
 }
 
-/* fonts */
+/* ----- */
+/* Fonts */
+/* ----- */
 
 @font-face {
     font-family: 'robotolight';

@@ -12,6 +12,7 @@
 <body class="w3-black Roboto">
 
 <div id="fullpage">
+<form action="https://script.google.com/macros/s/AKfycbzQpBZ-sL4KW8eL4vzQbY17lYYkIDWrqQhWBHoqHf-XbCkFDh1K/exec" method="post">
 
 	<div class="section ">
 		<div class="w3-display-container">
@@ -19,9 +20,15 @@
 				<div class="w3-text-yellow">
 					<p class="textxlarge tboldf">Hallo, wie bent u?</p>
 					<p class="justtext bigscreenpadding">Om later contact met u op nemen vragen we om uw naam en e-mail adres. Indien u geen e-mail's wilt ontvangen, vul dan niets in.</p>
+					<div class="bigscreenpadding">
+						<input class="w3-black w3-input w3-border-yellow w3-border-bottom w3-border-yellow w3-text-yellow textlarge" placeholder="Naam" name="Name" type="text" id="formnaam">
+					</div>
+					<div class="inputpadding">
+						<input class="w3-black w3-input w3-border-yellow w3-border-bottom w3-border-yellow w3-text-yellow textlarge" placeholder="E-mail Adres" name="Email" type="email">
+					</div>
 				</div>
 				<div class="bigscreenpadding">
-					<a href="#2"><p class="w3-xxlarge w3-text-yellow w3-border-yellow w3-border w3-padding w3-hover-opacity">Ga verder</p></a>
+					<a href="#2" onclick="naam()"><p class="w3-xxlarge w3-text-yellow w3-border-yellow w3-border w3-padding w3-hover-opacity">Ga verder</p></a>
 				</div>
 			</div>
 		</div>
@@ -31,16 +38,17 @@
 		<div class="w3-display-container">
 			<div class="w3-padding w3-center">
 				<div class="w3-text-yellow">
-					<p class="textxlarge tboldf">WIP2</p>
-					<p class="justtext bigscreenpadding">In ons onderzoek zullen we een aantal vragen stellen, dit zal ongeveer 15 minuten duren. Alle informatie die u geeft wordt veilig opgeslagen en is ontzichtbaar voor iedereen behalve voor ons (Jolle en Nino). Er wordt zorgvuldig met de informatie om gegaan, aan het einde van ons onderzoek zullen deze gegevens (anoniem) gepresenteerd worden in vorm van grafieken. Hierna worden de gegevens verwijderd.</p>
+					<p class="textxlarge tboldf">Hallo<span id="naamspan"></span></p>
+					<p class="justtext bigscreenpadding">Er wordt nog aan NetNeutraal gewerkt, binnen kort zullen er meer vragen beschikbaar zijn! Dit is het einde van het onderzoek, voor nu...</p>
 				</div>
 				<div class="bigscreenpadding">
-					<a href="#1"><p class="w3-xxlarge w3-text-yellow w3-border-yellow w3-border w3-padding w3-hover-opacity">Start Onderzoek<span class="w3-tiny"><br>Door hier te klikken gaat u akkoord met de bovenstaande voorwaarden!</u></a></span></p></a>
+					<input class="w3-xxlarge w3-text-yellow w3-border-yellow w3-border w3-padding w3-hover-opacity w3-black" type="submit" value="Verstuur de Resultaten!">
 				</div>
 			</div>
 		</div>
 	</div>
 
+</form>
 </div>
 
 
@@ -52,6 +60,10 @@
 				keyboardScrolling: false
     });
 		fullpage_api.setAllowScrolling(false);
+
+		function naam() {
+    	document.getElementById("naamspan").innerHTML = (", " + document.getElementById('formnaam').value + "!")
+		}
 </script>
 
 </body>
