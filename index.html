@@ -10,34 +10,35 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.2/fullpage.css" />
 </head>
 
-<body>
+<body class="w3-black Roboto">
 
-<div id="body">
+<div id="fullpage">
 
-	<div class="section active w3-black w3-display-container" id="p0">
-		<div class="w3-display-middle w3-center">
-			<p class="textjumbo w3-text-yellow w3-padding animated1">NetNeutraal</p>
-			<p class="w3-text-yellow animated2 w3-text-black textlarge">Veeg naar beneden</p>
-		</div>
-		<div class="w3-display-middle w3-center">
-			<p class="w3-text-yellow w3-border-yellow w3-border w3-padding animated11 textjumbo">NetNeutraal</p>
-			<p class="w3-text-yellow animated2 textlarge">Veeg naar beneden</p>
-		</div>
-		<div class="w3-display-bottommiddle w3-center">
-			<p class="w3-text-yellow animated3 textnormal"><i>Een JPT project - All Right Reserved <script type="text/javascript">document.write(new Date().getFullYear());</script></i></p>
+	<div class="section w3-display-container">
+		<div class="w3-display-container">
+			<div class="w3-display-middle w3-center">
+				<p class="textjumbo w3-text-yellow w3-padding animated1 tboldf">NetNeutraal</p>
+				<p class="w3-text-yellow animated2 w3-text-black textlarge">Een JPT project</p>
+			</div>
+			<div class="w3-display-middle w3-center">
+				<p class="w3-text-yellow w3-border-yellow w3-border w3-padding animated11 textjumbo tboldf">NetNeutraal</p>
+				<p class="w3-text-yellow animated2 textlarge">Een JPT project</p>
+			</div>
 		</div>
 	</div>
 
-	<div class="section w3-black w3-display-container" id="p1">
+	<div class="section ">
+	<div class="w3-black w3-display-container">
 		<div class="w3-padding w3-center">
 			<div class="w3-text-yellow">
-				<p class="textxlarge">NetNeutraal</p>
+				<p class="textxlarge tboldf">NetNeutraal</p>
 				<p class="justtext bigscreenpadding">Welkom bij NetNeutraal! Wij zijn Nino en Jolle, wij zijn bezig met een profiel werkstuk over netneutraliteit. Met deze website doen we onderzoek naar andere mensen hier over weten en vinden. Wij vinden netneutraliteit erg belangrijk, netneutraliteit is in het kort de vrijheid van het internet. Op deze website zult u, naast ons helpen door een formulier in te vullen, wat meer leren over netneutraliteit!</p>
 			</div>
 			<div class="bigscreenpadding">
 				<a href="start.html"><p class="w3-xxlarge w3-text-yellow w3-border-yellow w3-border w3-padding w3-hover-opacity">Ga Veder<span class="w3-tiny"><br>Klik hier om verder te gaan!</span></p></a>
 			</div>
 		</div>
+	</div>
 	</div>
 
 </div>
@@ -46,7 +47,10 @@
 <!-- FullPage.JS will now take care! -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.2/fullpage.js"></script>
 <script type="text/javascript">
-	var myFullpage = new fullpage('#body');
+    var myFullpage = new fullpage('#fullpage', {
+        anchors: ['1', '2'],
+				keyboardScrolling: false
+    });
 </script>
 
 </body>

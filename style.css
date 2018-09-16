@@ -164,3 +164,23 @@ a {
     padding-top: 7vw;
   }
 }
+
+/* fonts */
+
+@font-face {
+font-family: Roboto;
+src: url(Roboto.ttf);
+}
+
+.Roboto {
+font-family: Roboto!important;
+}
+
+@font-face {
+font-family: theboldfont;
+src: url(theboldfont.ttf);
+}
+
+.tboldf {
+font-family: theboldfont!important;
+}
