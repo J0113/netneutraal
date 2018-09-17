@@ -1,5 +1,4 @@
 /* ------------------------------- */
-/*                                 */
 /* CSS Style, made for NetNeutraal */
 /*            @J0113               */
 /*                                 */
@@ -205,6 +204,7 @@ font-family: the_bold_fontbold!important;
 
 
 /* Fix iOS devices' input */
-input, textarea, select {
-   -webkit-appearance: none;
+input {
+    -webkit-border-radius:0!important; 
+    border-radius:0!important;
 }
