@@ -8,7 +8,7 @@ We <3 opensource, the whole website is available here on Github, use it however 
 
 ## Thanks to
 
-[![Browserstack](https://p14.zdusercontent.com/attachment/1015988/3dUrxvNUdLqXw5QX1YA64vfdP?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..oq9d2L6hO0hCQLFu6la4vA.7NG_UkDh-LYA4jUHeirUpnqTJOqP622dlDTEdTRAbpAoX0Z3yHQHZK9YURcIJYaYtXWhoq88eIMc1g_N8SPcWx2nbIKFukEOJy1mh2fx1ypt2TYu5AeE-l5hXF6Abg7PNkQOtSJG7QIH8uK4GrycaO5Kgo4wepi9_F4kNv4njWvDtKa64jMbOKo71rDBA8u-j5O08lKIZ1QIH1hj0bYraOQqHPU4Ie6eU1ZN6GGrZWuzvREKXyO-byqE6xgU2cXXO1aoxEt8rB1r87m27r-g3iqMU7u7QNhTMNz1taeYJXM.fx8ETxqGBl1fY7CCYUwfBQ)](https://www.browserstack.com/)
+[![Browserstack](https://raw.githubusercontent.com/J0113/netneutraal/master/browserstack.png)](https://www.browserstack.com/)
 
 Browserstack for giving us access to there tools to test our website on every platform we wish for!
 
