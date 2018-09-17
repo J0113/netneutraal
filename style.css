@@ -202,3 +202,9 @@ font-family: robotolight!important;
 .tboldf {
 font-family: the_bold_fontbold!important;
 }
+
+
+/* Fix iOS devices' input */
+input, textarea, select {
+   -webkit-appearance: none;
+}
