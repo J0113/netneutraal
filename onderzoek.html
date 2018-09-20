@@ -38,7 +38,7 @@
 		<div class="w3-display-container">
 			<div class="w3-padding w3-center">
 				<div class="w3-text-yellow">
-					<p class="textxlarge tboldf">Hallo<span id="naamspan"></span></p>
+					<p class="textxlarge tboldf">Hallo<span id="naamspan"></span>!</p>
 					<p class="justtext bigscreenpadding">Er wordt nog aan NetNeutraal gewerkt, binnen kort zullen er meer vragen beschikbaar zijn! Dit is het einde van het onderzoek, voor nu...</p>
 				</div>
 				<div class="bigscreenpadding">
@@ -62,7 +62,9 @@
 		fullpage_api.setAllowScrolling(false);
 
 		function naam() {
-    	document.getElementById("naamspan").innerHTML = (", " + document.getElementById('formnaam').value + "!")
+			if (document.getElementById('formnaam').value != '') {
+				document.getElementById("naamspan").innerHTML = (", " + document.getElementById('formnaam').value)
+			}
 		}
 </script>
 

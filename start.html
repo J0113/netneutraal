@@ -13,7 +13,7 @@
 
 <div id="fullpage">
 
-	<div class="section " id="1">
+	<div class="section ">
 		<div class="w3-display-container">
 			<div class="w3-padding w3-center animated1">
 				<div class="w3-text-yellow">
@@ -30,11 +30,22 @@
 
 </div>
 
+<div class="w3-display-bottomright fademenu w3-hide-small">
+	<p class="w3-text-yellow justtext w3-padding"><a href="contact.html" class="w3-hover-opacity">Info & Contact</a></p>
+</div>
+
+<div class="w3-display-topright fademenu w3-hide-large w3-hide-medium">
+	<p class="w3-text-yellow justtext w3-padding"><a href="contact.html" class="w3-hover-opacity">Info & Contact</a></p>
+</div>
+
 
 <!-- FullPage.JS will now take care! -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.2/fullpage.js"></script>
 <script type="text/javascript">
-    var myFullpage = new fullpage('#fullpage');
+    var myFullpage = new fullpage('#fullpage', {
+        anchors: ['1'],
+				autoScrolling: false,
+    });
 </script>
 
 </body>

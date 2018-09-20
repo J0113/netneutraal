@@ -49,6 +49,26 @@ animation:fadein3 8s
 100% {opacity:1}
 }
 
+.fademenuhome{
+animation:fademenu 8s
+}
+
+@keyframes fademenu{
+0% {opacity:0}
+80% {opacity:0}
+100% {opacity:1}
+}
+
+.fademenu{
+animation:fademenu 4s
+}
+
+@keyframes fademenu{
+0% {opacity:0}
+40% {opacity:0}
+100% {opacity:1}
+}
+
 /* HREFs should not get underlined */
 a {
   text-decoration: none
@@ -205,6 +225,6 @@ font-family: the_bold_fontbold!important;
 
 /* Fix iOS devices' input */
 input {
-    -webkit-border-radius:0!important; 
+    -webkit-border-radius:0!important;
     border-radius:0!important;
 }

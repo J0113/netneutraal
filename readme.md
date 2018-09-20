@@ -8,7 +8,7 @@ We <3 opensource, the whole website is available here on Github, use it however 
 
 # Thanks to
 ## Browserstack - Endless testing on every platform we could wish for!
-[![Browserstack](https://raw.githubusercontent.com/J0113/netneutraal/master/browserstack.png)](https://www.browserstack.com/)
+[![Browserstack](https://raw.githubusercontent.com/J0113/netneutraal/master/browserstackblack.png)](https://www.browserstack.com/)
 
 [Browserstack](https://www.browserstack.com/) for giving us access to there tools to test our website on every platform we wish for! If you're building a website or some other kind of web project, please check them out: you can test your website for free on a few different platforms + there is a free trial to check out the premium devices. If you are an opensource developer like me you can get access to most tools! And for businesses, they have got very nice (and affordable) that will save some test devices and time!
 
