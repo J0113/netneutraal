@@ -81,6 +81,9 @@
 							<p class="w3-text-yellow w3-display-topright">Erg Belangrijk</p>
 							<input class="slider" type="range" min="1" max="100" value="50" name="BelangWetende">
 							</div>
+							<div class="bigscreenpadding">
+								<a href="#vraag3"><p class="w3-xxlarge w3-text-yellow w3-border-yellow w3-border w3-padding w3-hover-opacity">Ga verder</p></a>
+							</div>
 							</div>
 						</div>
 					</div>
@@ -104,12 +107,195 @@
 								<p class="w3-text-yellow w3-display-topright">Erg Belangrijk</p>
 								<input class="slider" type="range" min="1" max="100" value="50" name="BelangNietWetende">
 								</div>
+							<div class="bigscreenpadding">
+								<a href="#vraag3"><p class="w3-xxlarge w3-text-yellow w3-border-yellow w3-border w3-padding w3-hover-opacity">Ga verder</p></a>
+							</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 				</div>
+
+				<!-- Vraag 3 -->
+				<div class="section ">
+					<div class="w3-display-container">
+						<div class="w3-padding w3-center">
+							<div class="w3-text-yellow">
+								<p class="textxlarge tboldf">Vraag 3:</p>
+								<p class="textlarge bigscreenpadding">Waarom vind u <span id="welofniet">dit</span>?</p>
+							</div>
+							<div class="bigscreenpadding w3-cell-row">
+								<div class="w3-cell-row textlarge w3-text-yellow">
+									<div class="w3-black inputpadding ">
+									<textarea class="w3-black w3-input w3-border-yellow w3-border-bottom w3-border-yellow w3-text-yellow textlarge" placeholder="Ik vind Netneutraliteit..." name="Reden" type="text" rows="4" cols="50"></textarea>
+								<div class="bigscreenpadding">
+									<a href="#degevolgen"><p class="w3-xxlarge w3-text-yellow w3-border-yellow w3-border w3-padding w3-hover-opacity">Ga verder</p></a>
+								</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</div>
+
+						<!-- Vraag 4 temp -->
+						<div class="section ">
+							<div class="w3-display-container">
+								<div class="w3-padding w3-center">
+									<div class="w3-text-yellow">
+										<p class="textxlarge tboldf">De gevolgen.</p>
+										<p class="textlarge bigscreenpadding">Weet u precies wat Netneutraliteit inhoud?</p>
+									</div>
+									<div class="bigscreenpadding">
+										<div class="textlarge w3-text-yellow">
+												<a href="#vraag5"><div class="w3-container w3-border w3-border-yellow w3-hover-opacity">
+													<p>Verder</p>
+												</div></a>
+									</div>
+								</div>
+							</div>
+							</div>
+						</div>
+
+						<!-- Vraag 5 (Vervolg van 4) -->
+						<div class="section ">
+							<div class="w3-display-container">
+								<div class="w3-padding w3-center">
+									<div class="w3-text-yellow">
+										<p class="textxlarge tboldf">Vraag 5:</p>
+										<p class="textlarge bigscreenpadding">Is je mening verandert na het lezen van deze tekst?</p>
+									</div>
+									<div class="bigscreenpadding w3-cell-row">
+										<div class="w3-cell-row textlarge w3-text-yellow">
+												<a onclick="document.getElementById('Meningveranderd').value = 'Ja';" href="#vraag6"><div class="w3-container w3-cell w3-mobile w3-half w3-border w3-border-yellow w3-hover-opacity">
+					    						<p>Ja</p>
+					  						</div></a>
+					  					<a onclick="document.getElementById('Meningveranderd').value = 'Nee';" href="#vraag6"><div class="w3-container w3-cell w3-mobile w3-half w3-border w3-border-yellow w3-hover-opacity">
+					    					<p>Nee</p>
+					  					</div></a>
+											<input style="display:none" name="Meningveranderd" type="text" id="Meningveranderd" readonly="readonly">
+										</div>
+									</div>
+								</div>
+							</div>
+							</div>
+
+							<!-- Wetvragen -->
+							<!-- Vraag 6 -->
+							<div class="section ">
+								<div class="w3-display-container">
+									<div class="w3-padding w3-center">
+										<div class="w3-text-yellow">
+											<p class="textxlarge tboldf">Vraag 6:</p>
+											<p class="textlarge bigscreenpadding">Geef per wet aan of je het hier mee eens of oneens bent.<br><br>Providers mogen op geen enkele wijze iemand de mogelijkheid tot het internetgebruik ontnemen of belemmeren, tenzij een maatregel in het belang is van de privacy van een gebruiker of van het weren van internetvirussen en dergelijke (art. 15A sub a).</p>
+										</div>
+										<div class="bigscreenpadding w3-cell-row">
+											<div class="w3-cell-row textlarge w3-text-yellow">
+													<a onclick="document.getElementById('Wet1').value = 'Eens';" href="#vraag7"><div class="w3-container w3-cell w3-mobile w3-half w3-border w3-border-yellow w3-hover-opacity">
+						    						<p>Eens</p>
+						  						</div></a>
+						  					<a onclick="document.getElementById('Wet1').value = 'Oneens';" href="#vraag7"><div class="w3-container w3-cell w3-mobile w3-half w3-border w3-border-yellow w3-hover-opacity">
+						    					<p>Oneens</p>
+						  					</div></a>
+												<input style="display:none" name="Wet1" type="text" id="Wet1" readonly="readonly">
+											</div>
+										</div>
+									</div>
+								</div>
+								</div>
+
+								<!-- Vraag 7 -->
+								<div class="section ">
+									<div class="w3-display-container">
+										<div class="w3-padding w3-center">
+											<div class="w3-text-yellow">
+												<p class="textxlarge tboldf">Vraag 7:</p>
+												<p class="textlarge bigscreenpadding">Geef per wet aan of je het hier mee eens of oneens bent.<br><br>Providers moeten services voor ouderlijk toezicht aanbieden (art. 15A sub d).</p>
+											</div>
+											<div class="bigscreenpadding w3-cell-row">
+												<div class="w3-cell-row textlarge w3-text-yellow">
+														<a onclick="document.getElementById('Wet2').value = 'Eens';" href="#vraag8"><div class="w3-container w3-cell w3-mobile w3-half w3-border w3-border-yellow w3-hover-opacity">
+							    						<p>Eens</p>
+							  						</div></a>
+							  					<a onclick="document.getElementById('Wet2').value = 'Oneens';" href="#vraag8"><div class="w3-container w3-cell w3-mobile w3-half w3-border w3-border-yellow w3-hover-opacity">
+							    					<p>Oneens</p>
+							  					</div></a>
+													<input style="display:none" name="Wet2" type="text" id="Wet2" readonly="readonly">
+												</div>
+											</div>
+										</div>
+									</div>
+									</div>
+
+									<!-- Vraag 8 -->
+									<div class="section ">
+										<div class="w3-display-container">
+											<div class="w3-padding w3-center">
+												<div class="w3-text-yellow">
+													<p class="textxlarge tboldf">Vraag 8:</p>
+													<p class="textlarge bigscreenpadding">Geef per wet aan of je het hier mee eens of oneens bent.<br><br>Providers dienen hun klanten te voorzien van een in een voor de klant begrijpelijke taal geschreven exemplaar van hun contract, met daarin alle informatie over hun internetverbinding (art. 15A sub b).</p>
+												</div>
+												<div class="bigscreenpadding w3-cell-row">
+													<div class="w3-cell-row textlarge w3-text-yellow">
+															<a onclick="document.getElementById('Wet3').value = 'Eens';" href="#vraag9"><div class="w3-container w3-cell w3-mobile w3-half w3-border w3-border-yellow w3-hover-opacity">
+								    						<p>Eens</p>
+								  						</div></a>
+								  					<a onclick="document.getElementById('Wet3').value = 'Oneens';" href="#vraag9"><div class="w3-container w3-cell w3-mobile w3-half w3-border w3-border-yellow w3-hover-opacity">
+								    					<p>Oneens</p>
+								  					</div></a>
+														<input style="display:none" name="Wet3" type="text" id="Wet3" readonly="readonly">
+													</div>
+												</div>
+											</div>
+										</div>
+										</div>
+
+										<!-- Vraag 9 -->
+										<div class="section ">
+											<div class="w3-display-container">
+												<div class="w3-padding w3-center">
+													<div class="w3-text-yellow">
+														<p class="textxlarge tboldf">Vraag 9:</p>
+														<p class="textlarge bigscreenpadding">Geef per wet aan of je het hier mee eens of oneens bent.<br><br>Providers moeten de volgende zaken garanderen: de privacy van de gebruiker, bescherming tegen virussen en netwerkbeveiliging (art. 15C).</p>
+													</div>
+													<div class="bigscreenpadding w3-cell-row">
+														<div class="w3-cell-row textlarge w3-text-yellow">
+																<a onclick="document.getElementById('Wet4').value = 'Eens';" href="#vraag10"><div class="w3-container w3-cell w3-mobile w3-half w3-border w3-border-yellow w3-hover-opacity">
+									    						<p>Eens</p>
+									  						</div></a>
+									  					<a onclick="document.getElementById('Meningveranderd').value = 'Oneens';" href="#vraag10"><div class="w3-container w3-cell w3-mobile w3-half w3-border w3-border-yellow w3-hover-opacity">
+									    					<p>Oneens</p>
+									  					</div></a>
+															<input style="display:none" name="Wet4" type="text" id="Wet4" readonly="readonly">
+														</div>
+													</div>
+												</div>
+											</div>
+											</div>
+
+											<!-- Vraag 10 -->
+											<div class="section ">
+												<div class="w3-display-container">
+													<div class="w3-padding w3-center">
+														<div class="w3-text-yellow">
+															<p class="textxlarge tboldf">Vraag 10:</p>
+															<p class="textlarge bigscreenpadding">Geef per wet aan of je het hier mee eens of oneens bent.<br><br>Providers dienen toegang te verlenen tot alle beschikbare data op het internet (art. 15A sub c), met andere woorden, discriminatie is verboden.</p>
+														</div>
+														<div class="bigscreenpadding w3-cell-row">
+															<div class="w3-cell-row textlarge w3-text-yellow">
+																	<a onclick="document.getElementById('Wet5').value = 'Eens';" href="#vraag11"><div class="w3-container w3-cell w3-mobile w3-half w3-border w3-border-yellow w3-hover-opacity">
+										    						<p>Eens</p>
+										  						</div></a>
+										  					<a onclick="document.getElementById('Wet5').value = 'Oneens';" href="#vraag11"><div class="w3-container w3-cell w3-mobile w3-half w3-border w3-border-yellow w3-hover-opacity">
+										    					<p>Oneens</p>
+										  					</div></a>
+																<input style="display:none" name="Wet5" type="text" id="Wet5" readonly="readonly">
+															</div>
+														</div>
+													</div>
+												</div>
+												</div>
 
 </form>
 </div>
@@ -132,7 +318,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.2/fullpage.js"></script>
 <script type="text/javascript">
     var myFullpage = new fullpage('#fullpage', {
-        anchors: ['start', 'vraag1', 'vraag2a', 'vraag2b'],
+        anchors: ['start', 'vraag1', 'vraag2a', 'vraag2b', 'vraag3', 'degevolgen', 'vraag5',  'vraag6', 'vraag7', 'vraag8', 'vraag9', 'vraag10',],
 				scrollOverflowReset: true,
 				keyboardScrolling: false,
     });
