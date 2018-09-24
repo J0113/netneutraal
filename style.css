@@ -225,7 +225,7 @@ font-family: the_bold_fontbold!important;
 /* ----- */
 /* Input */
 /* ----- */
-input {
+input,textarea {
     -webkit-border-radius:0!important;
     border-radius:0!important;
 }
