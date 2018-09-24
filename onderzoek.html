@@ -7,13 +7,16 @@
 	<link rel="stylesheet" href="style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.2/fullpage.css" />
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body class="w3-black Roboto">
 
 <div id="fullpage">
-<form action="https://script.google.com/macros/s/AKfycbzQpBZ-sL4KW8eL4vzQbY17lYYkIDWrqQhWBHoqHf-XbCkFDh1K/exec" method="post" onkeypress="return event.keyCode != 13;">
+<form action="https://script.google.com/macros/s/AKfycbzQpBZ-sL4KW8eL4vzQbY17lYYkIDWrqQhWBHoqHf-XbCkFDh1K/exec" method="post">
 
+	<!-- Start -->
 	<div class="section ">
 		<div class="w3-display-container">
 			<div class="w3-padding w3-center animated1">
@@ -24,31 +27,104 @@
 						<input class="w3-black w3-input w3-border-yellow w3-border-bottom w3-border-yellow w3-text-yellow textlarge" placeholder="Naam" name="Name" type="text" id="formnaam">
 					</div>
 					<div class="inputpadding">
+						<input class="w3-black w3-input w3-border-yellow w3-border-bottom w3-border-yellow w3-text-yellow textlarge" placeholder="Leeftijd" name="Age" type="number">
+					</div>
+					<div class="inputpadding">
 						<input class="w3-black w3-input w3-border-yellow w3-border-bottom w3-border-yellow w3-text-yellow textlarge" placeholder="E-mail Adres" name="Email" type="email">
 					</div>
 				</div>
 				<div class="bigscreenpadding">
-					<a href="#2" onclick="naam()"><p class="w3-xxlarge w3-text-yellow w3-border-yellow w3-border w3-padding w3-hover-opacity">Ga verder</p></a>
+					<a href="#vraag1" onclick="naam()"><p class="w3-xxlarge w3-text-yellow w3-border-yellow w3-border w3-padding w3-hover-opacity">Ga verder</p></a>
 				</div>
 			</div>
 		</div>
 	</div>
 
+	<!-- Vraag 1 -->
 	<div class="section ">
 		<div class="w3-display-container">
 			<div class="w3-padding w3-center">
 				<div class="w3-text-yellow">
 					<p class="textxlarge tboldf">Hallo<span id="naamspan"></span>!</p>
-					<p class="justtext bigscreenpadding">Er wordt nog aan NetNeutraal gewerkt, binnenkort zullen er meer vragen beschikbaar zijn! Dit is het einde van het onderzoek, voor nu...</p>
+					<p class="textlarge bigscreenpadding">Weet u precies wat Netneutraliteit inhoud?</p>
 				</div>
-				<div class="bigscreenpadding">
-					<input class="w3-xxlarge w3-text-yellow w3-border-yellow w3-border w3-padding w3-hover-opacity w3-black" type="submit" value="Verstuur!">
+				<div class="bigscreenpadding w3-cell-row">
+					<div class="w3-cell-row textlarge w3-text-yellow">
+							<a href="#vraag2a"><div class="w3-container w3-cell w3-mobile w3-third w3-border w3-border-yellow w3-hover-opacity">
+    						<p>Ja</p>
+  						</div></a>
+  					<a href="#vraag2b"><div class="w3-container w3-cell w3-mobile w3-third w3-border w3-border-yellow w3-hover-opacity">
+    					<p>Ongeveer</p></a>
+  					</div>
+  					<a href="#vraag2b"><div class="w3-container w3-cell w3-mobile w3-third w3-border w3-border-yellow w3-hover-opacity">
+    					<p>Nee</p>
+  					</div></a>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
+		</div>
+
+		<!-- Vraag 2a (1:Ja) -->
+		<div class="section ">
+			<div class="w3-display-container">
+				<div class="w3-padding w3-center">
+					<div class="w3-text-yellow">
+						<p class="textxlarge tboldf">Vraag 2:</p>
+						<p class="textlarge bigscreenpadding">Hoe belangrijk vind u Netneutraliteit?</p>
+					</div>
+					<div class="bigscreenpadding w3-cell-row">
+						<div class="w3-cell-row textlarge w3-text-yellow">
+							<div class="w3-black inputpadding ">
+							<div class="w3-display-container justtext">
+							<p class="w3-text-yellow w3-display-topleft">Niet Belangrijk</p>
+							<p class="w3-text-yellow w3-display-topright">Erg Belangrijk</p>
+							<input class="slider" type="range" min="1" max="100" value="50" name="BelangWetende">
+							</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+
+			<!-- Vraag 2b (1:Nee+ongeveer) -->
+			<div class="section ">
+				<div class="w3-display-container">
+					<div class="w3-padding w3-center">
+						<div class="w3-text-yellow">
+							<p class="textxlarge tboldf">Vraag 2:</p>
+							<p class="textlarge bigscreenpadding"><b>Betekenis Netneutraliteit:</b><br><i>Providers moeten al het internetverkeer gelijk houden, websites van 'Partners' mogen geen voorrang krijgen. (Bijv: Netflix mag geen voorrang krijgen over HBO omdat ze een partnerschap hebben met een internetprovider. Ziggo mag niet zeggen dat je 5 euro moet betalen om Netflix te kunnen bereiken.</i><br><br>Hoe belangrijk vind u Netneutraliteit?</p>
+						</div>
+						<div class="bigscreenpadding w3-cell-row">
+							<div class="w3-cell-row textlarge w3-text-yellow">
+								<div class="w3-black inputpadding ">
+								<div class="w3-display-container justtext">
+								<p class="w3-text-yellow w3-display-topleft">Niet Belangrijk</p>
+								<p class="w3-text-yellow w3-display-topright">Erg Belangrijk</p>
+								<input class="slider" type="range" min="1" max="100" value="50" name="BelangNietWetende">
+								</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
 
 </form>
+</div>
+
+<div style="display:none" class="terugknop">
+<div class="w3-display-topleft w3-padding w3-hide-small">
+	<p class="w3-text-yellow justtext w3-border w3-border-yellow w3-padding"><a onclick="window.history.back()" class="w3-hover-opacity"><i class="fa fa-angle-left"></i> Vorige vraag</a></p>
+</div>
+</div>
+
+
+<div style="display:none" class="terugknop">
+<div class="w3-display-topleft w3-padding w3-hide-large w3-hide-medium">
+	<p class="w3-text-yellow justtext"><a onclick="window.history.back()" class="w3-hover-opacity"><i class="fa fa-angle-left"></i> Vorige vraag</a></p>
+</div>
 </div>
 
 
@@ -56,8 +132,9 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.2/fullpage.js"></script>
 <script type="text/javascript">
     var myFullpage = new fullpage('#fullpage', {
-        anchors: ['1', '2'],
+        anchors: ['start', 'vraag1', 'vraag2a', 'vraag2b'],
 				scrollOverflowReset: true,
+				keyboardScrolling: false,
     });
 		fullpage_api.setAllowScrolling(false);
 
@@ -65,7 +142,26 @@
 			if (document.getElementById('formnaam').value != '') {
 				document.getElementById("naamspan").innerHTML = (", " + document.getElementById('formnaam').value)
 			}
+			show((document.querySelectorAll('.terugknop')), 'block');
 		}
+
+		function hide (elements) {
+  		elements = elements.length ? elements : [elements];
+  		for (var index = 0; index < elements.length; index++) {
+    		elements[index].style.display = 'none';
+  		}
+		}
+		function show (elements, specifiedDisplay) {
+  		elements = elements.length ? elements : [elements];
+  		for (var index = 0; index < elements.length; index++) {
+    		elements[index].style.display = specifiedDisplay || 'block';
+  		}
+		}
+</script>
+<script type="text/javascript">
+$(document).on("keypress", ":input:not(textarea)", function(event) {
+    return event.keyCode != 13;
+});
 </script>
 
 </body>
