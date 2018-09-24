@@ -261,3 +261,36 @@ input {
     padding-right: 2vw;
     padding-left: 2vw;
 }
+
+.fafa {
+  padding: 20px;
+  font-size: 30px!important;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  background-color: #FFFF00;
+  color: #000000;
+  border-radius: 7px;
+}
+
+.fafafa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  background-color: #FFFF00;
+  color: #000000;
+  border-radius: 7px;
+}
+
+.fafa:hover {
+    opacity: 0.7;
+}
+
+
+.fafafa:hover {
+    opacity: 0.7;
+}
