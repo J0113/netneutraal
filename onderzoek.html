@@ -20,7 +20,7 @@
 	<meta name="theme-color" content="#ffffff">
 </head>
 
-<body class="w3-black Roboto">
+<body class="w3-black Roboto w3w3-display-container">
 
 <div id="fullpage">
 <form action="https://script.google.com/macros/s/AKfycbzQpBZ-sL4KW8eL4vzQbY17lYYkIDWrqQhWBHoqHf-XbCkFDh1K/exec" method="post">
@@ -538,19 +538,20 @@
 
 </form>
 </div>
-
-<div style="display:none" class="terugknop">
+<!-- Werkt nu niet :(
+<div class="terugknop">
 <div class="w3-display-topleft w3-padding w3-hide-small">
 	<p class="w3-text-yellow justtext w3-border w3-border-yellow w3-padding"><a onclick="window.history.back()" class="w3-hover-opacity"><i class="fa fa-angle-left"></i> Vorige vraag</a></p>
 </div>
 </div>
 
 
-<div style="display:none" class="terugknop">
+<div class="terugknop">
 <div class="w3-display-topleft w3-padding w3-hide-large w3-hide-medium">
 	<p class="w3-text-yellow justtext"><a onclick="window.history.back()" class="w3-hover-opacity"><i class="fa fa-angle-left"></i> Vorige vraag</a></p>
 </div>
 </div>
+-->
 
 
 <!-- FullPage.JS will now take care! -->
@@ -567,20 +568,6 @@
 			if (document.getElementById('formnaam').value != '') {
 				document.getElementById("naamspan").innerHTML = (", " + document.getElementById('formnaam').value)
 			}
-			show((document.querySelectorAll('.terugknop')), 'inline-block');
-		}
-
-		function hide (elements) {
-  		elements = elements.length ? elements : [elements];
-  		for (var index = 0; index < elements.length; index++) {
-    		elements[index].style.display = 'none';
-  		}
-		}
-		function show (elements, specifiedDisplay) {
-  		elements = elements.length ? elements : [elements];
-  		for (var index = 0; index < elements.length; index++) {
-    		elements[index].style.display = specifiedDisplay || 'block';
-  		}
 		}
 </script>
 <script type="text/javascript">
