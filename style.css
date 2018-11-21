@@ -311,3 +311,13 @@ input,textarea {
     background-color: #000000;
     margin: 6px 0;
 }
+
+img.logoimg{
+  width: 200px;
+  margin: 35px;
+}
+
+div.logoimg{
+  margin-top: 90px;
+  margin-bottom: 250px;
+}
